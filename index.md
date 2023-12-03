@@ -1,4 +1,4 @@
 ---
-title: Welcome to my blog
+Matthieu Dagommer: Welcome to my blog!
 ---
 
