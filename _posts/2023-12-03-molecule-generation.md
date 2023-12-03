@@ -52,10 +52,10 @@ max┬θ⁡〖E_X [∑_i▒λ_i  M_i (X)]〗
 Here, M_i’s represent metrics we’re trying to maximize (e.g., logP, QED, SA). We can give more or less weight to metrics relative to the others by adjusting coefficients λ_i. Now let’s compute the gradient of this function with respect to the weights of our neural network, θ:
 
 
-\begin{gathered}
+$\begin{gathered}
 \nabla_\theta \mathbb{E}_X\left[\sum_i \lambda_i M_i(X)\right]=\nabla_\theta \int_X d X p(X) \sum_i \lambda_i M_i(X) \\
 =\int_X d X \sum_i \lambda_i M_i(X) \nabla_\theta p(X)
-\end{gathered}
+\end{gathered}$
 
 Here, we use the following trick: ∇_θ p(X)=p(X) ∇_θ  log⁡p(X):
 
